@@ -49,7 +49,12 @@ def process_file(file_name):
     
     file.close()
     return quotes_list
-        
+       
+# this method returns all the quotes when given an Author
+# author: Anjneya Kumar
+    def getQuotesbyAuthor(author_name)
+    pass
+
 # Program execution
 quotes_list = process_file("quotes_in_excel.csv")
 print(quotes_list)
